@@ -5,14 +5,14 @@ from pathlib import Path
 if __name__ == "__main__":
     parser = ArgumentParser(prog="aoc2022")
     parser.add_argument("-d", "--day", required=True, type=int, choices=range(1, 26), help="Run code for Day of Advent of Code 2022")
-    parser.add_argument("-r", "--resource", help="Pass an input file to Day's code")
+    parser.add_argument("-r", "--res", help="Pass an input file to Day's code")
 
     args = parser.parse_args()
 
     code = Path(".") / f"Day{args.day}" / "src" / "main.py"
 
-    if args.resource:
-        input_file = Path(".") / f"Day{args.day}" / "resource" / args.resource
+    if args.res:
+        input_file = Path(".") / f"Day{args.day}" / "res" / args.res
     else:
         input_file = None
 
