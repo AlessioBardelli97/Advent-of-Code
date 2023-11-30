@@ -1,0 +1,69 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Advent of Code: Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            // "program": "./Day6/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day7/res/test.txt"]
+        },
+        {
+            "name": "Advent of Code Day 1",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day1/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day1/res/input.txt"]
+        },
+        {
+            "name": "Advent of Code Day 2",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day2/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day2/res/input.txt"]
+        },
+        {
+            "name": "Advent of Code Day 3",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day3/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day3/res/input.txt"]
+        },
+        {
+            "name": "Advent of Code Day 4",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day4/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day4/res/input.txt"]
+        },
+        {
+            "name": "Advent of Code Day 5",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day5/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day5/res/input.txt"]
+        },
+        {
+            "name": "Advent of Code Day 6",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day6/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day6/res/input.txt"]
+        }
+    ]
+}
