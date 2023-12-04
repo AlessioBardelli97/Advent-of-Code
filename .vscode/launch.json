@@ -9,7 +9,7 @@
             // "program": "./Day6/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day7/res/test.txt"]
+            "args": ["./Day8/res/test.txt"]
         },
         {
             "name": "Advent of Code Day 1",
@@ -64,6 +64,24 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["./Day6/res/input.txt"]
+        },
+        {
+            "name": "Advent of Code Day 7",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day7/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day7/res/input.txt"]
+        },
+        {
+            "name": "Advent of Code Day 8",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day8/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day8/res/input.txt"]
         }
     ]
 }
