@@ -2,17 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Advent of Code: Test",
+            "name": "Test",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             // "program": "./Day6/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day12/res/test.txt"]
+            "args": ["./Day14/res/test.txt"]
         },
         {
-            "name": "Advent of Code Day 1",
+            "name": "Day 1",
             "type": "python",
             "request": "launch",
             "program": "./Day1/src/main.py",
@@ -21,7 +21,7 @@
             "args": ["./Day1/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 2",
+            "name": "Day 2",
             "type": "python",
             "request": "launch",
             "program": "./Day2/src/main.py",
@@ -30,7 +30,7 @@
             "args": ["./Day2/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 3",
+            "name": "Day 3",
             "type": "python",
             "request": "launch",
             "program": "./Day3/src/main.py",
@@ -39,7 +39,7 @@
             "args": ["./Day3/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 4",
+            "name": "Day 4",
             "type": "python",
             "request": "launch",
             "program": "./Day4/src/main.py",
@@ -48,7 +48,7 @@
             "args": ["./Day4/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 5",
+            "name": "Day 5",
             "type": "python",
             "request": "launch",
             "program": "./Day5/src/main.py",
@@ -57,7 +57,7 @@
             "args": ["./Day5/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 6",
+            "name": "Day 6",
             "type": "python",
             "request": "launch",
             "program": "./Day6/src/main.py",
@@ -66,7 +66,7 @@
             "args": ["./Day6/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 7",
+            "name": "Day 7",
             "type": "python",
             "request": "launch",
             "program": "./Day7/src/main.py",
@@ -75,7 +75,7 @@
             "args": ["./Day7/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 8",
+            "name": "Day 8",
             "type": "python",
             "request": "launch",
             "program": "./Day8/src/main.py",
@@ -84,7 +84,7 @@
             "args": ["./Day8/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 9",
+            "name": "Day 9",
             "type": "python",
             "request": "launch",
             "program": "./Day9/src/main.py",
@@ -93,7 +93,7 @@
             "args": ["./Day9/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 10",
+            "name": "Day 10",
             "type": "python",
             "request": "launch",
             "program": "./Day10/src/main.py",
@@ -102,7 +102,7 @@
             "args": ["./Day10/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 11",
+            "name": "Day 11",
             "type": "python",
             "request": "launch",
             "program": "./Day11/src/main.py",
@@ -111,13 +111,31 @@
             "args": ["./Day11/res/input.txt"]
         },
         {
-            "name": "Advent of Code Day 12",
+            "name": "Day 12",
             "type": "python",
             "request": "launch",
             "program": "./Day12/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["./Day12/res/input.txt"]
+        },
+        {
+            "name": "Day 13",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day13/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day13/res/input.txt"]
+        },
+        {
+            "name": "Day 14",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day14/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day14/res/input.txt"]
         }
     ]
 }
