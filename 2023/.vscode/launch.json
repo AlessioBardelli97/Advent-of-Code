@@ -9,88 +9,88 @@
             // "program": "./Day6/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day14/res/test.txt"]
+            "args": ["./Day01/res/test.txt"]
         },
         {
             "name": "Day 1",
             "type": "python",
             "request": "launch",
-            "program": "./Day1/src/main.py",
+            "program": "./Day01/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day1/res/input.txt"]
+            "args": ["./Day01/res/input.txt"]
         },
         {
             "name": "Day 2",
             "type": "python",
             "request": "launch",
-            "program": "./Day2/src/main.py",
+            "program": "./Day02/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day2/res/input.txt"]
+            "args": ["./Day02/res/input.txt"]
         },
         {
             "name": "Day 3",
             "type": "python",
             "request": "launch",
-            "program": "./Day3/src/main.py",
+            "program": "./Day03/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day3/res/input.txt"]
+            "args": ["./Day03/res/input.txt"]
         },
         {
             "name": "Day 4",
             "type": "python",
             "request": "launch",
-            "program": "./Day4/src/main.py",
+            "program": "./Day04/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day4/res/input.txt"]
+            "args": ["./Day04/res/input.txt"]
         },
         {
             "name": "Day 5",
             "type": "python",
             "request": "launch",
-            "program": "./Day5/src/main.py",
+            "program": "./Day05/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day5/res/input.txt"]
+            "args": ["./Day05/res/input.txt"]
         },
         {
             "name": "Day 6",
             "type": "python",
             "request": "launch",
-            "program": "./Day6/src/main.py",
+            "program": "./Day06/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day6/res/input.txt"]
+            "args": ["./Day06/res/input.txt"]
         },
         {
             "name": "Day 7",
             "type": "python",
             "request": "launch",
-            "program": "./Day7/src/main.py",
+            "program": "./Day07/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day7/res/input.txt"]
+            "args": ["./Day07/res/input.txt"]
         },
         {
             "name": "Day 8",
             "type": "python",
             "request": "launch",
-            "program": "./Day8/src/main.py",
+            "program": "./Day08/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day8/res/input.txt"]
+            "args": ["./Day08/res/input.txt"]
         },
         {
             "name": "Day 9",
             "type": "python",
             "request": "launch",
-            "program": "./Day9/src/main.py",
+            "program": "./Day09/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day9/res/input.txt"]
+            "args": ["./Day09/res/input.txt"]
         },
         {
             "name": "Day 10",
@@ -136,6 +136,15 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["./Day14/res/input.txt"]
+        },
+        {
+            "name": "Day 15",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day15/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day15/res/input.txt"]
         }
     ]
 }
