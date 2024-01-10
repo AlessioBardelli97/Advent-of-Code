@@ -9,7 +9,7 @@
             // "program": "./Day6/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day15/res/test.txt"]
+            "args": ["./Day16/res/test.txt"]
         },
         {
             "name": "Day 1",
@@ -145,6 +145,15 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["./Day15/res/input.txt"]
+        },
+        {
+            "name": "Day 16",
+            "type": "python",
+            "request": "launch",
+            "program": "./Day16/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day16/res/input.txt"]
         }
     ]
 }
