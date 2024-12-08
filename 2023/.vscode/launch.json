@@ -9,10 +9,10 @@
             // "program": "./Day6/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day02/res/test.txt"]
+            "args": ["./Day07/res/test.txt"]
         },
         {
-            "name": "Day 1",
+            "name": "Day 01",
             "type": "debugpy",
             "request": "launch",
             "program": "./Day01/src/main.py",
@@ -21,7 +21,7 @@
             "args": ["./Day01/res/input.txt"]
         },
         {
-            "name": "Day 2",
+            "name": "Day 02",
             "type": "debugpy",
             "request": "launch",
             "program": "./Day02/src/main.py",
@@ -30,7 +30,7 @@
             "args": ["./Day02/res/input.txt"]
         },
         {
-            "name": "Day 3",
+            "name": "Day 03",
             "type": "debugpy",
             "request": "launch",
             "program": "./Day03/src/main.py",
@@ -39,7 +39,7 @@
             "args": ["./Day03/res/input.txt"]
         },
         {
-            "name": "Day 4",
+            "name": "Day 04",
             "type": "debugpy",
             "request": "launch",
             "program": "./Day04/src/main.py",
@@ -48,7 +48,7 @@
             "args": ["./Day04/res/input.txt"]
         },
         {
-            "name": "Day 5",
+            "name": "Day 05",
             "type": "debugpy",
             "request": "launch",
             "program": "./Day05/src/main.py",
@@ -57,7 +57,7 @@
             "args": ["./Day05/res/input.txt"]
         },
         {
-            "name": "Day 6",
+            "name": "Day 06",
             "type": "debugpy",
             "request": "launch",
             "program": "./Day06/src/main.py",
@@ -66,7 +66,7 @@
             "args": ["./Day06/res/input.txt"]
         },
         {
-            "name": "Day 7",
+            "name": "Day 07",
             "type": "debugpy",
             "request": "launch",
             "program": "./Day07/src/main.py",
@@ -75,7 +75,7 @@
             "args": ["./Day07/res/input.txt"]
         },
         {
-            "name": "Day 8",
+            "name": "Day 08",
             "type": "debugpy",
             "request": "launch",
             "program": "./Day08/src/main.py",
@@ -84,7 +84,7 @@
             "args": ["./Day08/res/input.txt"]
         },
         {
-            "name": "Day 9",
+            "name": "Day 09",
             "type": "debugpy",
             "request": "launch",
             "program": "./Day09/src/main.py",
