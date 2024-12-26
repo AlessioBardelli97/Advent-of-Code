@@ -9,7 +9,7 @@
             // "program": "./Day6/src/main.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["./Day07/res/test.txt"]
+            "args": ["./Day08/res/test3.txt"]
         },
         {
             "name": "Day 01",
