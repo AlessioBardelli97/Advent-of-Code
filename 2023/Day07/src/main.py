@@ -66,7 +66,7 @@ class Hand:
         self.type = Type.High
 
   def __repr__(self) -> str:
-    return f"Hand(hand={self.cards}, type={self.type.name}, bid={self.bid})"
+    return f"Hand(cards={self.cards}, type={self.type.name}, bid={self.bid})"
 
   def __lt__(self, other: object) -> bool:
     if not isinstance(other, Hand):
