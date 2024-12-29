@@ -1,0 +1,150 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            // "program": "./Day6/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day01/res/test.txt"]
+        },
+        {
+            "name": "Day 01",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day01/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day01/res/input.txt"]
+        },
+        {
+            "name": "Day 02",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day02/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day02/res/input.txt"]
+        },
+        {
+            "name": "Day 03",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day03/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day03/res/input.txt"]
+        },
+        {
+            "name": "Day 04",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day04/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day04/res/input.txt"]
+        },
+        {
+            "name": "Day 05",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day05/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day05/res/input.txt"]
+        },
+        {
+            "name": "Day 06",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day06/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day06/res/input.txt"]
+        },
+        {
+            "name": "Day 07",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day07/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day07/res/input.txt"]
+        },
+        {
+            "name": "Day 08",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day08/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day08/res/input.txt"]
+        },
+        {
+            "name": "Day 09",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day09/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day09/res/input.txt"]
+        },
+        {
+            "name": "Day 10",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day10/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day10/res/input.txt"]
+        },
+        {
+            "name": "Day 11",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day11/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day11/res/input.txt"]
+        },
+        {
+            "name": "Day 12",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day12/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day12/res/input.txt"]
+        },
+        {
+            "name": "Day 13",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day13/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day13/res/input.txt"]
+        },
+        {
+            "name": "Day 14",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day14/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day14/res/input.txt"]
+        },
+        {
+            "name": "Day 15",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day15/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day15/res/input.txt"]
+        }
+    ]
+}
