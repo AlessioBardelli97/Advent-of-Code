@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            // "program": "./Day6/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day01/res/test.txt"]
+        },
+        {
+            "name": "Day 01",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "./Day01/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["./Day01/res/input.txt"]
+        }
+    ]
+}
