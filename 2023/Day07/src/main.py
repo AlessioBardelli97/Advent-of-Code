@@ -1,6 +1,7 @@
 from sys import argv
 from enum import IntEnum
 from functools import total_ordering
+from collections import Counter
 
 
 cardValue = {"2": 0, "3": 1, "4": 2, "5": 3, "6": 4, "7": 5, "8": 6, "9": 7, "T": 8, "J": 9, "Q": 10, "K": 11, "A": 12}
@@ -21,11 +22,9 @@ class Type(IntEnum):
 class Hand:
   def __init__(self, cards: str, bid: str, with_joker: bool=False) -> None:
     self.cards = cards
-    cardsDict = {}
+    cardsDict = Counter(cards)
     self.bid = int(bid)
     self.with_joker = with_joker
-    for card in cards:
-      cardsDict[card] = 1 + (cardsDict[card] if card in cardsDict else 0)
     values = cardsDict.values()
     if len(values) == 1:
       self.type = Type.Five
