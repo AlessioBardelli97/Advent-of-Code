@@ -24,14 +24,18 @@ def part_two(ids: list[range]) -> int:
   for r in ids:
     for _id in r:
       middle = len(str(_id)) // 2
-      for dimension in range(1, middle):
-        value = _id[:dimension]
+      for dimension in range(1, middle+1):
+        value = str(_id)[:dimension]
         equals = True
-        while equals and ...:
-          if ... != value:
+        idx = dimension
+        while equals and idx < len(str(_id)):
+          if str(_id)[idx:idx+dimension] != value:
             equals = False
+          else:
+            idx += dimension
         if equals:
           result += _id
+          break
   return result
 
 
