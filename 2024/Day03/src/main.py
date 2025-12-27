@@ -18,9 +18,15 @@ def part_two(corrupted_memory: list[str]) -> int:
   result = 0
   mul_instructions_are_enabled = True
   for line_of_memory in corrupted_memory:
-    mul_instructions = [{"type": "mul", "mul": m.groups(), "start": m.start()} for m in finditer(r"mul\((\d{1,3}),(\d{1,3})\)", line_of_memory)]
-    do_instructions = [{"type": "do", "start": m.start()} for m in finditer(r"do\(\)", line_of_memory)]
-    dont_instructions = [{"type": "dont", "start": m.start()} for m in finditer(r"don't\(\)", line_of_memory)]
+    matches = finditer(r"mul\((\d{1,3}),(\d{1,3})\)", line_of_memory)
+    mul_instructions = [{"type": "mul", "mul": m.groups(), "start": m.start()} for m in matches]
+
+    matches = finditer(r"do\(\)", line_of_memory)
+    do_instructions = [{"type": "do", "start": m.start()} for m in matches]
+
+    matches = finditer(r"don't\(\)", line_of_memory)
+    dont_instructions = [{"type": "dont", "start": m.start()} for m in matches]
+
     instructions = sorted(mul_instructions + do_instructions + dont_instructions, key=lambda m: m["start"])
     for instruction in instructions:
       if instruction["type"] == "mul":
